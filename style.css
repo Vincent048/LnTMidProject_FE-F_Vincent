@@ -1,0 +1,152 @@
+body{
+    background: #ddd;
+    margin: 0;
+    font-family: arial;
+    font-size: 1.2em;
+    color: #111;
+}
+
+.button{
+    border: 3px solid #111;
+    padding: 10px;
+    color: #111;
+    text-decoration: none;
+    position: relative;
+    left: 50%;
+    top: 50%;
+}
+
+.pop{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0,0,0,0.6);
+    display: none;
+}
+
+.welcome{
+    margin: 20px;
+}
+
+#pop-up .pop-content{
+    width: 600px;
+    height: 600px;
+    margin: 100px auto;
+    background: #FFFF;
+    position: relative;
+    border: 5px solid white;
+}
+
+.exit{
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    background: #222;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    color: #fff;
+    text-decoration: none;
+    line-height: 0;
+    padding: 9px 0 11px;
+    width: 20px;
+    text-align: center;
+}
+
+.pop:target{
+    display: block;
+}
+
+.about-me{
+    display: flex;
+}
+
+.description{
+    margin-top: 20px;
+    margin-right: 20px;
+    font-size: 15px;
+    text-align: justify;
+    display: flex;
+}
+
+.about{
+    margin: 20px;
+}
+
+.Vincent{
+    margin: 20px;
+    width: 400px;
+    height: 500px;
+}
+
+.study{
+    font-size: 15px;
+    text-decoration: none;
+    margin-right: 20px;
+    padding-right: 20px;
+    border: 1px solid;
+    width: 100%;
+}
+
+.skill{
+    font-size: 15px;
+}
+
+.forms{
+    display:flex;
+    margin-top: 100px;
+    margin-left: 920px;
+}
+
+.contact-form{
+    display:flex;
+    flex-direction:column;
+    padding: 30px 40px;
+    box-sizing: border-box;
+    border: 1px solid #111;
+    border-radius: 8px;
+    text-align: center;
+    margin:-100px;
+    margin-left:-300px;
+}
+
+.contact-form h1{
+    margin-top:0;
+    font-weight: 200;
+}
+
+.txtb{
+    border: 1px solid gray;
+    margin: 8px 0;
+    padding: 12px 18px;
+    border-radius: 8px;
+}
+
+.txtb label{
+    display: block;
+    text-align: left;
+    color: #333;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.txtb input,.txtb textarea{
+    width: 100%;
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 18px;
+    margin-top: 6px;
+}
+
+.btn{
+    display: block;
+    background: #0ab0da;
+    padding: 14px 0;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: 8px;
+    width: 100%;
+}
